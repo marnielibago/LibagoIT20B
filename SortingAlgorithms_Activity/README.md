@@ -1,46 +1,43 @@
-# Sorting Algorithms Activity
+ # Sorting Algorithms Activity
 
 ## Program Overview
-This Java program shows how **Bubble Sort**, **Selection Sort**, and **Insertion Sort** work for our **IT20 (Data Structures and Algorithms)** class. It takes an unsorted list of numbers and arranges them from lowest to highest using all three methods.
-
+Kining Java program nagpakita kon giunsa pag-work ang Bubble Sort, Selection Sort, ug Insertion Sort. Mokuha ni ug lista sa mga numbers nga wala pa naarrange ug iarrange ni sila gikan sa pinakaubos padulong sa pinakataas gamit ning tulo ka Sorting Algorithms.
 ---
 
 ## How Each Sorting Algorithm Works
 
 ### 1. Bubble Sort
-Bubble Sort checks two numbers side by side and swaps them if they are in the wrong order. It keeps doing this pass after pass until the biggest numbers "bubble up" to the end and the whole list is sorted.
+Ang Bubble Sort mag-check og duha ka number nga nagtupad, unya i-swap niya sila kon sayop ang ilang pagkasunod.Then mag sieg dayon og balik-balik ni hangtod  nga ang pinakadakong mga number mo-"bubble up" na padulong sa last ug ma-sort na ang tanan lista.
 
 ### 2. Selection Sort
-Selection Sort splits the list into a sorted side and an unsorted side. In each round, it looks through the unsorted numbers to find the smallest one and swaps it into the next spot on the sorted side.
+Ang Selection Sort mobahin bahin sa lista gikan sa sorted ug unsorted nga bahin. Sa kada round, mangita ni sa pinakagamay nga number sa unsorted, unya i-swap na niya sa sunod nga pwesto sa sorted nga side.
 
 ### 3. Insertion Sort
-Insertion Sort sorts the list one number at a time. It takes the next unsorted number and shifts bigger numbers to the right until it finds the exact spot where that number belongs.
+Ang Insertion Sort mo-sort sa lista og tagsa-tagsa ka number. Mokuha ni sa sunod nga unsorted nga number unya i-shift  niya padulong sa right ang mga mas dagkong numbers hangtod nga makita ang sakto nga pwesto para ana nga numbers.
 
 ---
 
 ## Differences Between the Three Sorting Algorithms
-- **Bubble Sort** does a lot of back-and-forth swapping between neighboring numbers.
-- **Selection Sort** searches for the smallest number first, so it only swaps once per pass.
-- **Insertion Sort** shifts numbers over to insert each item into place instead of constantly swapping pairs.
-
+- **Bubble Sort** Sige lang og balik-balik og swap sa mga apad nga numbers.
+- **Selection Sort** Mangita una sa pinakagamay nga numbers, maong kausa ra mo-swap kada pass.
+- **Insertion Sort** I-shift lang ang mga numbers aron masulod ang kada item sa saktong pwesto imbes nga sige og swap sa mga pares.
 ---
 
 ## Reflection Questions
 
 ### 1. How does each sorting algorithm arrange numbers? What makes their processes different?
-- **Bubble Sort** pushes large numbers to the end by swapping neighbors repeatedly.
-- **Selection Sort** hunts for the smallest remaining number and moves it to the front.
-- **Insertion Sort** picks one number at a time and slides it into its proper place among the already-sorted numbers.
-- **What makes them different:** Bubble Sort relies on frequent swaps, Selection Sort looks for the minimum value first, and Insertion Sort shifts elements to insert items directly where they belong.
+- **Bubble Sort** Gina push ang mga dagko na numbers padulong sa last in a way nga makuan sa sige og swap sa mga apad nga numbers.
+- **Selection Sort** Mangita sa pinakagamay nga numbers ug ibalhin sa atubangan.
+- **Insertion Sort** Mokuha og usa ka numbers ug i-slide padulong sa iyang saktong pwesto kauban sa mga na-sort na nga numbers.
+- **What makes them different:** Ang Bubble Sort magbase sa sige og swap, ang Selection Sort mangita una sa pinakagamay nga value, ug ang Insertion Sort mo-shift sa mga element aron diretso nga masulod ang mga item sa ilang saktong pwesto.
 
 ### 2. Among the three sorting algorithms, which one do you think is the easiest to understand and implement? Why?
-**Bubble Sort** is the easiest to understand and code because comparing two numbers next to each other and swapping them is very straightforward and only needs simple loops.
+**Bubble Sort** Mao ni ang pinakasayon sabton tungod kay diretso ra kaayo ang pag-compare sa duha ka tapad nga numbers ug pag-swap ani, ug simple ra nga mga loop ang kinahanglan.
 
 ### 3. If the numbers are already sorted, which algorithm do you think would perform better? Explain your answer based on how the algorithms work.
-**Insertion Sort** works best on an already sorted list because it just checks each number against the one before it, sees that it is already in order, and moves on without shifting anything. Selection Sort would still scan the whole unsorted section every single time even though nothing needs to move.
-
+**Insertion Sort** Works best sa lista nga daan nang naka-sort tungod kay i-check ra niya ang kada number base sa numbers nga nag-una ani, makita nga sakto na ang pagsunod sunod, ug padayon na dayon nga walay gi-shift. Ang Selection Sort mag-scan gihapon sa tibuok unsorted nga base sa kada each time bisan og walay dapat ibalhin.
 ### 4. What will happen if you add more numbers to your array? How might this affect the performance of each sorting algorithm?
-If I add more numbers, all three algorithms will run noticeably slower. Because they use nested loops, adding more numbers multiplies the number of comparisons and swaps they have to do.
+If I add more numbers, mo-run nga mas hinay gyud kaayo. Tungod kay naggamit  og nested loops, pagdugang og mas daghang numbers mag-multiply sa kadaghan sa mga ipagcompare ug swap nga kinahanglan nilang buhaton.
 
 ### 5. As a future programmer, why is it important to understand different sorting algorithms instead of using just one?
-Different programs handle different amounts of data and have different speed or memory needs. Knowing multiple sorting algorithms helps me pick the best tool for the job instead of forcing one slow method to work for everything.
+Ang lain-laing programs mag-handle og lain-laing nga kadaghanon sa data ug naay lain-laing kinahanglanon sa speed o memory. Ang pagkahibalo og daghang sorting algorithms makatabang sa mopili sa kuan pinakamaayong  para sa trabaho imbes nga ipugos ang isa ka hinay nga method.
