@@ -1,7 +1,7 @@
  # Sorting Algorithms Activity
 
 ## Program Overview
-Kining Java program nagpakita kon giunsa pag-work ang Bubble Sort, Selection Sort, ug Insertion Sort. Mokuha ni ug lista sa mga numbers nga wala pa naarrange ug iarrange ni sila gikan sa pinakaubos padulong sa pinakataas gamit ning tulo ka Sorting Algorithms.
+This Java program is nagpakita kon giunsa pag-work ang Bubble Sort, Selection Sort, ug Insertion Sort. Mokuha ni ug lista sa mga numbers nga wala pa naarrange ug iarrange ni sila gikan sa pinakaubos padulong sa pinakataas gamit ning tulo ka Sorting Algorithms.
 ---
 
 ## How Each Sorting Algorithm Works
