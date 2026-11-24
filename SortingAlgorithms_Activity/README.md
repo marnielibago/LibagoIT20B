@@ -18,24 +18,24 @@ Ang Insertion Sort mo-sort sa lista og tagsa-tagsa ka number. Mokuha ni sa sunod
 ---
 
 ## Differences Between the Three Sorting Algorithms
-- **Bubble Sort** Sige lang og balik-balik og swap sa mga apad nga numbers.
-- **Selection Sort** Mangita una sa pinakagamay nga numbers, maong kausa ra mo-swap kada pass.
-- **Insertion Sort** I-shift lang ang mga numbers aron masulod ang kada item sa saktong pwesto imbes nga sige og swap sa mga pares.
+- **Bubble Sort** sige lang og balik-balik og swap sa mga apad nga numbers.
+- **Selection Sort** mangita una sa pinakagamay nga numbers, maong kausa ra mo-swap kada pass.
+- **Insertion Sort** i-shift lang ang mga numbers aron masulod ang kada item sa saktong pwesto imbes nga sige og swap sa mga pares.
 ---
 
 ## Reflection Questions
 
 ### 1. How does each sorting algorithm arrange numbers? What makes their processes different?
-- **Bubble Sort** Gina push ang mga dagko na numbers padulong sa last in a way nga makuan sa sige og swap sa mga apad nga numbers.
-- **Selection Sort** Mangita sa pinakagamay nga numbers ug ibalhin sa atubangan.
-- **Insertion Sort** Mokuha og usa ka numbers ug i-slide padulong sa iyang saktong pwesto kauban sa mga na-sort na nga numbers.
+- **Bubble Sort** gina push ang mga dagko na numbers padulong sa last in a way nga makuan sa sige og swap sa mga apad nga numbers.
+- **Selection Sort** mangita sa pinakagamay nga numbers ug ibalhin sa atubangan.
+- **Insertion Sort** mo kuha og usa ka numbers ug i-slide padulong sa iyang saktong pwesto kauban sa mga na-sort na nga numbers.
 - **What makes them different:** Ang Bubble Sort magbase sa sige og swap, ang Selection Sort mangita una sa pinakagamay nga value, ug ang Insertion Sort mo-shift sa mga element aron diretso nga masulod ang mga item sa ilang saktong pwesto.
 
 ### 2. Among the three sorting algorithms, which one do you think is the easiest to understand and implement? Why?
-**Bubble Sort** Mao ni ang pinakasayon sabton tungod kay diretso ra kaayo ang pag-compare sa duha ka tapad nga numbers ug pag-swap ani, ug simple ra nga mga loop ang kinahanglan.
+**Bubble Sort** mao ni ang pinakasayon sabton tungod kay diretso ra kaayo ang pag-compare sa duha ka tapad nga numbers ug pag-swap ani, ug simple ra nga mga loop ang kinahanglan.
 
 ### 3. If the numbers are already sorted, which algorithm do you think would perform better? Explain your answer based on how the algorithms work.
-**Insertion Sort** Works best sa lista nga daan nang naka-sort tungod kay i-check ra niya ang kada number base sa numbers nga nag-una ani, makita nga sakto na ang pagsunod sunod, ug padayon na dayon nga walay gi-shift. Ang Selection Sort mag-scan gihapon sa tibuok unsorted nga base sa kada each time bisan og walay dapat ibalhin.
+**Insertion Sort** works best sa lista nga daan nang naka-sort tungod kay i-check ra niya ang kada number base sa numbers nga nag-una ani, makita nga sakto na ang pagsunod sunod, ug padayon na dayon nga walay gi-shift. Ang Selection Sort mag-scan gihapon sa tibuok unsorted nga base sa kada each time bisan og walay dapat ibalhin.
 ### 4. What will happen if you add more numbers to your array? How might this affect the performance of each sorting algorithm?
 If I add more numbers, mo-run nga mas hinay gyud kaayo. Tungod kay naggamit  og nested loops, pagdugang og mas daghang numbers mag-multiply sa kadaghan sa mga ipagcompare ug swap nga kinahanglan nilang buhaton.
 
